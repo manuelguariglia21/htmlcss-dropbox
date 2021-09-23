@@ -20,6 +20,11 @@ body{
   padding-top: 70px; 
  }
 
+ .container{
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* NAV */
 
 nav{
@@ -30,6 +35,7 @@ nav{
   font-size: 20px;
   padding: 0 1vh;
   min-width: 1250px;
+  z-index: 1000;
   
 }
 
@@ -83,37 +89,43 @@ nav .nav-right{
 
 /* btn */
 .btn{
-  padding: 10px;
   text-align: center;
 }
 
 .btn a{
   text-decoration: none;
-  color: white;
+  padding: 10px;
 }
 
-.btn.small{
-  width: 75px;
-  height: 30px;
-}
-
-.btn.blue{
+.btn.classic a{
   background-color: #0061ff;
   color: white;
 }
+
+.btn.classic a:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.btn.classic a:visited{
+  color: white;
+}
+
+.btn.classic a:hover:visited{
+  color: black;
+}
+
+
+
+
 
 /* JUMBOTRON */
 
 .jumbotron{ 
   background-color: #b4d0e7;
-}
-
-.jumbo-box{
-  position: relative;
-  width: 60%;
-  margin: 0 auto;
-  padding: 70px 0;
-  border: 1px solid black; /* da togliere !!! */
+  float: left; /* altrimenti si riduce */
+  width: 100%;
 }
 
 .jumbo-box .title{
@@ -121,4 +133,26 @@ nav .nav-right{
   font-weight: bolder;
 
 }
+
+.jumbo-box .paragraph{
+  float: left;
+  width: 30%;
+  font-size: 13px;
+}
+
+.jumbo-box .paragraph p{
+  padding: 5vh 0;
+}
+
+.jumbo-box img{
+  float: right;
+  width: 60%;
+  padding: 5vh 0;
+}
+
+.paragraph i{
+  font-size: 30px;
+}
+
+
 
