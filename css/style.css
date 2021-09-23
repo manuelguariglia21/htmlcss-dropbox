@@ -16,6 +16,10 @@ body{
   clear: both;
 }
 
+.anchor{
+  padding-top: 70px; 
+ }
+
 /* NAV */
 
 nav{
@@ -100,7 +104,21 @@ nav .nav-right{
 
 /* JUMBOTRON */
 
-.jumbotron{
-  height: 500px; /* da togliere !!! */
+.jumbotron{ 
   background-color: #b4d0e7;
 }
+
+.jumbo-box{
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding: 70px 0;
+  border: 1px solid black; /* da togliere !!! */
+}
+
+.jumbo-box .title{
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
