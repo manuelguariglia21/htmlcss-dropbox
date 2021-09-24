@@ -312,5 +312,35 @@ nav .nav-right{
   color: #0061ff;
 }
 
+.content-full{
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+.content-full .text-full{
+  float: left;
+  width: 49%;
+  padding-right: 1%;
+}
+
+.text-full .grade{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.text-full .price{
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.text-full .duration{
+  padding-top: 15px;
+}
+
+.content-full .btn-full span a{
+  float: right;
+  width: 49%;
+  padding-left: 1%;
+}
 /* /plan */
 
