@@ -21,8 +21,9 @@ body{
  }
 
  .container{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* NAV */
@@ -33,7 +34,7 @@ nav{
   background-color: white;
   position: fixed;
   font-size: 20px;
-  padding: 0 1vh;
+  padding: 0 20px;
   min-width: 1250px;
   z-index: 1000;
   
@@ -81,7 +82,7 @@ nav .nav-right{
 
 .menu li a:hover{
   text-decoration: none;
-  border-bottom: 1px solid black;
+  border-bottom: 4px solid black;
   
 }
 
@@ -103,9 +104,7 @@ nav .nav-right{
 }
 
 .btn.classic a:hover{
-  background-color: white;
-  color: black;
-  border: 1px solid black;
+  background-color: #3381ff;
 }
 
 .btn.classic a:visited{
@@ -113,7 +112,7 @@ nav .nav-right{
 }
 
 .btn.classic a:hover:visited{
-  color: black;
+  color: white;
 }
 
 
@@ -127,27 +126,40 @@ nav .nav-right{
   float: left; /* altrimenti si riduce */
   width: 100%;
 }
+.jumbo-box{
+  margin-top: 100px;
+}
+
+.jumbo-row{
+  height: 61vh;
+  position: relative;
+  min-width: 1106px;
+}
 
 .jumbo-box .title{
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bolder;
 
 }
 
-.jumbo-box .paragraph{
-  float: left;
-  width: 30%;
-  font-size: 13px;
+.jumbo-row .paragraph{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24%;
+  font-size: 15px;
 }
 
-.jumbo-box .paragraph p{
+.jumbo-row .paragraph p{
   padding: 5vh 0;
 }
 
-.jumbo-box img{
-  float: right;
-  width: 60%;
-  padding: 5vh 0;
+.jumbo-row img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 76%;
+  padding-top: 5vh;
 }
 
 .paragraph i{
