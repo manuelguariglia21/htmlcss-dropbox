@@ -178,10 +178,6 @@ nav .nav-right{
 
 /* plan */
 
-.title.container{
-  border: 1px solid blue;
-}
-
 .plan{
   width: 100%;
   min-height: 500px;
@@ -193,26 +189,98 @@ nav .nav-right{
   font-weight: bolder;
 }
 
-.radio.container{
-  border: 1px solid red;
-}
-
 .radio{
   margin-top: 10vh;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.checkmark{
+  padding-right: 20px;
+}
+
+.box-plan{
+  padding: 0 20px;
 }
 
 .table.container{
-  border: 1px solid green;
   margin-top: 5vh;
+  min-height: 250px;
+}
+
+.table.container.full{
+  border: 2px solid #d0d0d3;
 }
 
 .table .col{
   min-height: 250px;
   border: 2px solid #d0d0d3;
-  display: inline-block;
   width: 30%;
+  margin: auto;
+  display: inline-block;
+  margin-right: 5%;
 }
+
+.table .col:last-of-type{
+  margin-right: 0;
+}
+
+.cap{
+  width: 100%;
+  border-bottom: 2px solid #d0d0d3;
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.plan-title{
+  padding-left: 3px;
+}
+
+.plan-top .grade{
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.plan-top .price{
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.plan-top .price::after{
+  content: '\20AC';
+}
+
+.plan-top .duration{
+  color: #6a7a87;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.plan-description{
+  padding-top: 55px;
+}
+
+.plan-description p{
+  padding-bottom: 30px;
+}
+
+.plan-description span{
+  padding-left: 5px;
+}
+
+.buy p{
+  padding-top: 38px;
+}
+
+.line{
+  width: 25%;
+  height: 2px;
+  background-color: #d0d0d3;
+  margin: 20px 0;
+}
+
+
 /* /plan */
 
