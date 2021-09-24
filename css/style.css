@@ -120,6 +120,23 @@ nav .nav-right{
   color: white;
 }
 
+.btn.alternative a{
+  background-color: white;
+  color: black;
+}
+
+.btn.alternative a:hover{
+  background-color: lightgrey;
+}
+
+.btn.alternative a:visited{
+  color: black;
+}
+
+.btn.alternative a:hover:visited{
+  color: black;
+}
+
 
 
 /* JUMBOTRON */
@@ -342,5 +359,37 @@ nav .nav-right{
   width: 49%;
   padding-left: 1%;
 }
+
+.partner-image{
+  float: left;
+  width: 49%;
+  padding-right: 1%;
+}
+
+.partner-image img{
+  width: 100%;
+}
+
+.partner-description{
+  float: left;
+  width: 49%;
+  padding-left: 1%;
+}
+
+.partner-description .description-title{
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}
+
+.description-paragraph p{
+  margin-bottom: 15px;
+
+}
+
+.description-paragraph div a{
+  border: 2px solid black;
+}
+
 /* /plan */
 
