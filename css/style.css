@@ -100,7 +100,7 @@ nav .nav-right{
 
 .btn a{
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 .btn.classic a{
@@ -119,8 +119,6 @@ nav .nav-right{
 .btn.classic a:hover:visited{
   color: white;
 }
-
-
 
 
 
@@ -266,12 +264,26 @@ nav .nav-right{
   padding-bottom: 30px;
 }
 
-.plan-description span{
-  padding-left: 5px;
+.plan-description span::before{
+  content: '\00A0';
 }
 
 .buy p{
   padding-top: 38px;
+}
+
+.buy .btn a{
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.buy{
+ text-align: center;
+}
+
+.buy p{
+  text-align: left;
 }
 
 .line{
@@ -281,6 +293,24 @@ nav .nav-right{
   margin: 20px 0;
 }
 
+.list p{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.list ul li{
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.list ul li:last-of-type{
+  padding-bottom: 200px;
+}
+
+.list ul li i{
+  color: #0061ff;
+}
 
 /* /plan */
 
