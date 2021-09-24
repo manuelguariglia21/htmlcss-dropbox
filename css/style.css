@@ -20,10 +20,15 @@ body{
   padding-top: 70px; 
  }
 
- .container{
+ .header-container{
   width: 80%;
   margin: 0 auto;
   height: 100%;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
 }
 
 /* NAV */
@@ -123,7 +128,6 @@ nav .nav-right{
 
 .jumbotron{ 
   background-color: #b4d0e7;
-  float: left; /* altrimenti si riduce */
   width: 100%;
 }
 .jumbo-box{
@@ -137,7 +141,7 @@ nav .nav-right{
 }
 
 .jumbo-box .title{
-  font-size: 70px;
+  font-size: 85px;
   font-weight: bolder;
 
 }
@@ -147,11 +151,15 @@ nav .nav-right{
   top: 0;
   left: 0;
   width: 24%;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .jumbo-row .paragraph p{
   padding: 5vh 0;
+}
+
+.jumbo-row .paragraph p:last-of-type{
+  padding-top: 2vh;
 }
 
 .jumbo-row img{
@@ -166,5 +174,45 @@ nav .nav-right{
   font-size: 30px;
 }
 
+/* MAIN */
 
+/* plan */
+
+.title.container{
+  border: 1px solid blue;
+}
+
+.plan{
+  width: 100%;
+  min-height: 500px;
+  margin-top: 20vh;
+}
+
+.plan .title{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.radio.container{
+  border: 1px solid red;
+}
+
+.radio{
+  margin-top: 10vh;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.table.container{
+  border: 1px solid green;
+  margin-top: 5vh;
+}
+
+.table .col{
+  min-height: 250px;
+  border: 2px solid #d0d0d3;
+  display: inline-block;
+  width: 30%;
+}
+/* /plan */
 
