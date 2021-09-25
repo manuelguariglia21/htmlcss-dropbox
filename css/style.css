@@ -444,3 +444,69 @@ nav .nav-right{
 .operations-col .paragraph .active{
   text-decoration: underline;
 }
+
+/* /operations */
+
+/* client */
+
+.client-box{
+  margin-top: 20vh;
+}
+
+.client{
+  width: 100%;
+  min-height: 500px;
+  margin-top: 5vh;
+}
+
+.link-client{
+  margin-top: 30px;
+}
+
+.link-client a, .link-client a:hover, .link-client a:visited{
+  color: #0061ff;
+}
+
+.client-aside{
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  height: 500px;
+}
+
+.client-middle{
+  width: 40%;
+  display: inline-block;
+  height: 500px;
+}
+
+.brand-box{
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 280px;
+}
+
+.brand-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+#design{
+  background-color: #a2d39b;
+}
+
+#asu{
+  background-color: #61082c;
+}
+
+#uf{
+  background-color: #1d93ce;
+}
+
+#topps{
+  background-color: #f91c1d;
+}
