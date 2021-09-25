@@ -493,6 +493,7 @@ nav .nav-right{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%;
+  filter:invert(100%); /* invert color black to white */
 }
 
 #design{
