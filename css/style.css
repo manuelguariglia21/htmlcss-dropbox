@@ -27,7 +27,7 @@ body{
 }
 
 .container{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -336,7 +336,7 @@ nav .nav-right{
 
 .content-full .text-full{
   float: left;
-  width: 49%;
+  width: 69%;
   padding-right: 1%;
 }
 
@@ -356,14 +356,18 @@ nav .nav-right{
 
 .content-full .btn-full span a{
   float: right;
-  width: 49%;
+  width: 29%;
   padding-left: 1%;
+}
+
+.partner{
+  margin-top: 150px;
 }
 
 .partner-image{
   float: left;
-  width: 49%;
-  padding-right: 1%;
+  width: 48%;
+  padding-right: 2%;
 }
 
 .partner-image img{
@@ -371,9 +375,9 @@ nav .nav-right{
 }
 
 .partner-description{
-  float: left;
-  width: 49%;
-  padding-left: 1%;
+  float: right;
+  width: 48%;
+  padding-left: 2%;
 }
 
 .partner-description .description-title{
@@ -384,6 +388,12 @@ nav .nav-right{
 
 .description-paragraph p{
   margin-bottom: 15px;
+
+}
+
+.description-paragraph div{
+  margin-top: 30px;
+  text-align: left;
 
 }
 
