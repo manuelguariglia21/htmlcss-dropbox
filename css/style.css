@@ -36,6 +36,13 @@ body{
   font-weight: bolder;
 }
 
+.line{
+  width: 25%;
+  height: 2px;
+  background-color: #d0d0d3;
+  margin: 20px 0;
+}
+
 /* NAV */
 
 nav{
@@ -303,13 +310,6 @@ nav .nav-right{
   text-align: left;
 }
 
-.line{
-  width: 25%;
-  height: 2px;
-  background-color: #d0d0d3;
-  margin: 20px 0;
-}
-
 .list p{
   font-size: 20px;
   font-weight: bolder;
@@ -455,8 +455,9 @@ nav .nav-right{
 
 .client{
   width: 100%;
-  min-height: 500px;
   margin-top: 5vh;
+  background-color: #f5f5f5;
+
 }
 
 .link-client{
@@ -468,23 +469,26 @@ nav .nav-right{
 }
 
 .client-aside{
-  position: relative;
+  float: left;
   width: 30%;
-  display: inline-block;
-  height: 500px;
 }
 
 .client-middle{
+  float: left;
   width: 40%;
-  display: inline-block;
-  height: 500px;
+  padding: 0 50px;
 }
 
 .brand-box{
   float: left;
   position: relative;
   width: 50%;
-  height: 280px;
+  padding-top: 50%;
+  border: 10px solid transparent;
+}
+
+.brand-box.active{
+  border: 10px solid rgba(255, 255, 255, 0.7);
 }
 
 .brand-box img{
@@ -494,6 +498,19 @@ nav .nav-right{
   transform: translate(-50%, -50%);
   width: 50%;
   filter:invert(100%); /* invert color black to white */
+}
+
+.brand-content{
+  width: 100%;
+}
+
+.brand-content img{
+  width: 35%;
+  padding-top: 50px;
+}
+
+.client-content .credits{
+  margin-top: 50px;
 }
 
 #design{
