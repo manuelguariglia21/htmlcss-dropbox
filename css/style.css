@@ -23,7 +23,6 @@ body{
  .header-container{
   width: 80%;
   margin: 0 auto;
-  height: 100%;
 }
 
 .container{
@@ -32,8 +31,13 @@ body{
 }
 
 .title{
-  font-size: 40px;
+  font-size: 2.1vw;
   font-weight: bolder;
+  text-align: left;
+}
+
+.paragraph{
+  font-size: 1vw;
 }
 
 .line{
@@ -162,23 +166,21 @@ nav .nav-right{
 }
 
 .jumbo-row{
-  height: 61vh;
-  position: relative;
-  min-width: 1106px;
+  position: relative;;
 }
 
 .jumbo-box .title{
-  font-size: 85px;
-  font-weight: bolder;
-
+  font-size: 5vw;
+  
 }
 
 .jumbo-row .paragraph{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 24%;
-  font-size: 20px;
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+  font-size: 1vw;
+  vertical-align: top;
 }
 
 .jumbo-row .paragraph p{
@@ -186,19 +188,18 @@ nav .nav-right{
 }
 
 .jumbo-row .paragraph p:last-of-type{
-  padding-top: 2vh;
+  margin-top: 1vh;
 }
 
 .jumbo-row img{
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 76%;
-  padding-top: 5vh;
+  float: right;
+  width: 50%;
+  bottom: 50%;
+  padding: 5vh 0 0 0;
 }
 
-.paragraph i{
-  font-size: 30px;
+.jumbotron .paragraph i{
+  font-size: 2vw;
 }
 
 /* MAIN */
@@ -208,7 +209,7 @@ nav .nav-right{
 .plan{
   width: 100%;
   min-height: 500px;
-  margin-top: 20vh;
+  margin-top: 30vh;
 }
 
 .radio{
@@ -432,7 +433,7 @@ nav .nav-right{
 }
 
 .operations-col .top{
-  font-size: 25px;
+  font-size: 1.3vw;
   font-weight: bolder;
   padding-top: 15px;
 }
@@ -450,6 +451,7 @@ nav .nav-right{
 /* client */
 
 .client-box{
+  width: 60%;
   margin-top: 20vh;
 }
 
@@ -457,7 +459,6 @@ nav .nav-right{
   width: 100%;
   margin-top: 5vh;
   background-color: #f5f5f5;
-
 }
 
 .link-client{
@@ -469,14 +470,17 @@ nav .nav-right{
 }
 
 .client-aside{
-  float: left;
+  display: inline-block;
   width: 30%;
 }
 
 .client-middle{
-  float: left;
+  display: inline-block;
   width: 40%;
   padding: 0 50px;
+  max-height: 325px;
+  overflow: scroll;
+  vertical-align: top;
 }
 
 .brand-box{
@@ -544,3 +548,37 @@ nav .nav-right{
 #clear{
   background-color: #fed830;
 }
+
+/* /client */
+
+/* agency */
+
+.agency{
+  background-color: #b4d0e7;
+  position: relative;
+  height: 300px;
+}
+
+.agency-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.agency-title{
+  float: left;
+  width: 59%;
+  margin-right: 1%;
+}
+
+.agency-title .title{
+  color: #61082c;
+}
+
+.agency-button a{
+  float: right;
+  width: 29%;
+  margin-left: 11%;
+}
+
