@@ -20,7 +20,7 @@ body{
   padding-top: 70px; 
  }
 
- .header-container{
+ .hf-container{
   width: 80%;
   margin: 0 auto;
 }
@@ -596,16 +596,17 @@ footer{
 
 footer ul{
   display: inline-block;
-  margin-right: 2vw;
+  margin-right: 3vw;
 }
 
 footer ul li{
   list-style: none;
   padding-bottom: 15px;
+  font-size: 1vw;
 }
 
 footer ul li:first-of-type{
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-weight: bolder;
   padding-bottom: 34px;
 }
@@ -613,4 +614,23 @@ footer ul li:first-of-type{
 footer a{
   color: white;
   text-decoration: none;
+}
+
+footer .line{
+  margin-top: 110px;
+  margin-bottom: 50px;
+  width: 8vw;
+}
+
+footer .language i:first-of-type{
+  color: #999999;
+  vertical-align: middle;
+}
+
+footer .language span{
+  font-weight: 600;
+}
+
+footer .language span, footer .language i:last-of-type{
+  color: #666666;
 }
