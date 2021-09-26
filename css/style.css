@@ -26,7 +26,7 @@ body{
 }
 
 .container{
-  width: 50%;
+  width: 54%;
   margin: 0 auto;
 }
 
@@ -116,7 +116,9 @@ nav .nav-right{
 
 .btn a{
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0.5vw 1vw;
+  font-size: 1vw;
+  text-align: center;
 }
 
 .btn.classic a{
@@ -300,7 +302,6 @@ nav .nav-right{
 .buy .btn a{
   display: inline-block;
   width: 100%;
-  padding: 10px 0;
 }
 
 .buy{
@@ -584,3 +585,32 @@ nav .nav-right{
 
 /* footer */
 
+footer{
+  background-color: black;
+}
+
+.footer-box{
+  padding-top: 103px;
+  padding-bottom: 110px;
+}
+
+footer ul{
+  display: inline-block;
+  margin-right: 2vw;
+}
+
+footer ul li{
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+footer ul li:first-of-type{
+  font-size: 1vw;
+  font-weight: bolder;
+  padding-bottom: 34px;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
