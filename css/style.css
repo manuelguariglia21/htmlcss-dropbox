@@ -56,7 +56,7 @@ nav{
   position: fixed;
   font-size: 15px;
   padding: 0 20px;
-  min-width: 1250px;
+  min-width: 1050px;
   z-index: 1000;
   
 }
@@ -75,6 +75,10 @@ nav .nav-right{
 
 .nav-left img{
   vertical-align: middle;
+}
+
+nav .btn.classic.nav a{
+  font-size: 15px;
 }
 /* menu */
 
@@ -163,8 +167,11 @@ nav .nav-right{
   background-color: #b4d0e7;
   width: 100%;
 }
-.jumbo-box{
-  margin-top: 100px;
+
+.jumbo-box {
+  position: relative;
+  margin-top: 2px;
+  top: 96px;
 }
 
 .jumbo-box .title{
@@ -180,18 +187,18 @@ nav .nav-right{
   vertical-align: top;
 }
 
-.jumbo-row .paragraph p{
-  padding: 5vh 0;
+.jumbo-row .paragraph p:first-of-type{
+  padding: 65px 0 35px 0;
 }
 
 .jumbo-row .paragraph p:last-of-type{
-  margin-top: 1vh;
+  margin-top: 15px;
 }
 
 .jumbo-image{
   float: right;
   width: 70%;
-  padding: 5vh 0 0 0;
+  padding: 65px 0 0 0;
 }
 
 .jumbo-image img{
@@ -200,6 +207,7 @@ nav .nav-right{
 
 .jumbotron .paragraph i{
   font-size: 2vw;
+  margin-top: 40px;
 }
 
 /* MAIN */
@@ -213,8 +221,8 @@ nav .nav-right{
 }
 
 .radio{
-  margin-top: 10vh;
-  font-size: 15px;
+  margin-top: 75px;
+  font-size: 1vw;
   font-weight: 500;
 }
 
@@ -227,8 +235,8 @@ nav .nav-right{
 }
 
 .table.container{
-  margin-top: 5vh;
-  min-height: 250px;
+  margin-top: 45px;
+  padding-bottom: 35px;
 }
 
 .table.container.full{
@@ -236,12 +244,13 @@ nav .nav-right{
 }
 
 .table .col{
-  min-height: 250px;
+  min-height: 1064px;
   border: 2px solid #d0d0d3;
   width: 30%;
   margin: auto;
   display: inline-block;
   margin-right: 5%;
+  vertical-align: top;
 }
 
 .table .col:last-of-type{
@@ -261,12 +270,13 @@ nav .nav-right{
 }
 
 .plan-top .grade{
-  font-size: 25px;
+  font-size: 2vw;
   font-weight: bolder;
   padding-top: 15px;
 }
 
 .plan-top .price{
+  font-size: 1vw;
   font-weight: bolder;
   padding-top: 15px;
 }
@@ -276,13 +286,15 @@ nav .nav-right{
 }
 
 .plan-top .duration{
+  font-size: 0.9vw;
   color: #6a7a87;
   font-weight: 600;
-  padding-top: 5px;
+  padding-top: 6px;
 }
 
 .plan-description{
-  padding-top: 55px;
+  font-size: 0.9vw;
+  padding-top: 30px;
 }
 
 .plan-description p{
@@ -294,6 +306,7 @@ nav .nav-right{
 }
 
 .buy p{
+  font-size: 0.9vw;
   padding-top: 38px;
 }
 
@@ -311,18 +324,15 @@ nav .nav-right{
 }
 
 .list p{
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: bolder;
   padding-bottom: 30px;
 }
 
 .list ul li{
+  font-size: 0.9vw;
   list-style: none;
-  padding-bottom: 30px;
-}
-
-.list ul li:last-of-type{
-  padding-bottom: 200px;
+  padding-bottom: 40px;
 }
 
 .list ul li i{
@@ -341,16 +351,18 @@ nav .nav-right{
 }
 
 .text-full .grade{
-  font-size: 25px;
+  font-size: 2vw;
   font-weight: bolder;
 }
 
 .text-full .price{
+  font-size: 1vw;
   font-weight: bolder;
   padding-top: 15px;
 }
 
 .text-full .duration{
+  font-size: 0.9vw;
   padding-top: 15px;
 }
 
@@ -381,12 +393,14 @@ nav .nav-right{
 }
 
 .partner-description .description-title{
-  font-size: 25px;
+  font-size: 2vw;
   font-weight: bolder;
   padding-bottom: 15px;
 }
 
 .description-paragraph p{
+  font-size: 1vw;
+  line-height: 22px;
   margin-bottom: 15px;
 
 }
@@ -407,12 +421,11 @@ nav .nav-right{
 
 .operations{
   width: 100%;
-  margin-top: 10vh;
-
+  margin-top: 130px;
 }
 
 .operations-row{
-  margin-top: 10vh;
+  margin-top: 130px;
 }
 
 .operations-col{
@@ -460,6 +473,7 @@ nav .nav-right{
 }
 
 .link-client{
+  font-size: 0.9vw;
   margin-top: 30px;
 }
 
@@ -468,7 +482,6 @@ nav .nav-right{
 }
 
 .client-aside{
-  display: inline-block;
   width: 30%;
 }
 
@@ -476,9 +489,9 @@ nav .nav-right{
   float: left;
   width: 40%;
   padding: 0 50px;
-  max-height: 325px;
-  overflow: scroll;
+  height: 300px;
   vertical-align: top;
+  overflow: scroll;
 }
 
 #aside-sx{
@@ -519,7 +532,7 @@ nav .nav-right{
   padding-top: 50px;
 }
 
-.client-content .credits{
+.client-content .paragraph.credits{
   margin-top: 50px;
 }
 
@@ -563,6 +576,7 @@ nav .nav-right{
   background-color: #b4d0e7;
   position: relative;
   height: 300px;
+  margin-bottom: 130px;
 }
 
 .agency-content{
@@ -593,10 +607,31 @@ nav .nav-right{
 
 .single-question-box .question{
   float: left;
+  font-weight: bold;
+}
+
+.inline-question{
+  margin-bottom: 30px;
 }
 
 .single-question-box .arrow{
   float: right;
+}
+
+.questions-box .line{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.answer{
+  color: #7d8b96;
+  width: 90%;
+  margin-bottom: 30px;
+  font-size: 1.1vw;;
+}
+
+.question p{
+  font-size: 1.1vw;
 }
 
 /* footer */
