@@ -26,7 +26,7 @@ body{
 }
 
 .container{
-  width: 54%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -54,7 +54,7 @@ nav{
   height: 70px;
   background-color: white;
   position: fixed;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0 20px;
   min-width: 1250px;
   z-index: 1000;
@@ -97,13 +97,13 @@ nav .nav-right{
 .menu li a{
   text-decoration: none;
   color: black;
-  padding-bottom: 18px;
+  padding-bottom: 20px;
   
 }
 
 .menu li a:hover{
   text-decoration: none;
-  border-bottom: 4px solid black;
+  border-bottom: 3px solid black;
   
 }
 
@@ -116,7 +116,7 @@ nav .nav-right{
 
 .btn a{
   text-decoration: none;
-  padding: 0.5vw 1vw;
+  padding: 0.5vw 0.7vw;
   font-size: 1vw;
   text-align: center;
 }
