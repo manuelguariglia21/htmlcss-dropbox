@@ -10,7 +10,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix::before{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
@@ -167,19 +167,14 @@ nav .nav-right{
   margin-top: 100px;
 }
 
-.jumbo-row{
-  position: relative;;
-}
-
 .jumbo-box .title{
   font-size: 5vw;
   
 }
 
 .jumbo-row .paragraph{
-  display: inline-block;
-  width: 40%;
-  margin-right: 5%;
+  float: left;
+  width: 30%;
   margin-bottom: 1%;
   font-size: 1vw;
   vertical-align: top;
@@ -193,11 +188,14 @@ nav .nav-right{
   margin-top: 1vh;
 }
 
-.jumbo-row img{
+.jumbo-image{
   float: right;
-  width: 50%;
-  bottom: 50%;
+  width: 70%;
   padding: 5vh 0 0 0;
+}
+
+.jumbo-image img{
+  width: 100%;
 }
 
 .jumbotron .paragraph i{
@@ -336,7 +334,7 @@ nav .nav-right{
   padding: 0 20px;
 }
 
-.content-full .text-full{
+.text-full{
   float: left;
   width: 69%;
   padding-right: 1%;
@@ -409,8 +407,8 @@ nav .nav-right{
 
 .operations{
   width: 100%;
-  min-height: 500px;
-  margin-top: 50vh;
+  margin-top: 10vh;
+
 }
 
 .operations-row{
@@ -453,7 +451,6 @@ nav .nav-right{
 
 .client-box{
   width: 60%;
-  margin-top: 20vh;
 }
 
 .client{
@@ -476,12 +473,20 @@ nav .nav-right{
 }
 
 .client-middle{
-  display: inline-block;
+  float: left;
   width: 40%;
   padding: 0 50px;
   max-height: 325px;
   overflow: scroll;
   vertical-align: top;
+}
+
+#aside-sx{
+  float: left;
+}
+
+#aside-dx{
+  float: right;
 }
 
 .brand-box{
@@ -577,7 +582,7 @@ nav .nav-right{
   color: #61082c;
 }
 
-.agency-button .btn.alternative a{
+.agency-button{
   float: right;
   width: 29%;
   margin-left: 11%;
@@ -585,15 +590,12 @@ nav .nav-right{
 
 /* questions */
 
-.single-question-box{
-  height: ;
-}
 
-.single-question-box p{
+.single-question-box .question{
   float: left;
 }
 
-.single-question-box i{
+.single-question-box .arrow{
   float: right;
 }
 
