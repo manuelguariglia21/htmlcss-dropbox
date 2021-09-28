@@ -523,6 +523,10 @@ nav .btn.classic.nav a{
   filter:invert(100%); /* invert color black to white */
 }
 
+.brand-box:hover{
+  opacity: 0.5;
+}
+
 .brand-content{
   width: 100%;
 }
