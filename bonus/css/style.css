@@ -111,6 +111,30 @@ nav .btn.classic.nav a{
   
 }
 
+.sub-menu:hover .sub{
+  visibility: visible;
+  position: fixed;
+}
+
+.sub:hover{
+  visibility: visible;
+}
+
+.sub:hover li{
+  visibility: visible;
+}
+
+.sub{
+  visibility: hidden;
+  position: fixed;
+  background-color: white;
+}
+
+.sub .sub-li{
+  display: list-item;
+  text-align: center;
+}
+
 
 
 /* btn */
